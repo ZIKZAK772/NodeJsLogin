@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Node Js </title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/home.css">
+    <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+
+    <script type="text/javascript" src="js/home.js"></script>
+</head>
+<body>
+<div class="jumbotron">
+    <div class="container">
+        <h1 id="header">Node JS </h1><span id="auth" class="label label-info"> -- </span>
+
+        <div id="authBox">
+            <div style="width: 40% ; margin: auto ; display: inline-block ; margin-left: 5%">
+                <h3> Login </h3>
+                <div> <span>username</span><input class="form-control" id="username"> </div>
+                <div> <span>password</span> <input class="form-control" id="password">  </div>
+                <button style="margin: 5px" class="btn btn-primary" id="login"> Login </button>
+                <button style="margin: 5px" class="btn btn-primary" id="logout"> Log Out </button>
+            </div>
+            <div style="width: 40% ; margin: auto ; display: inline-block ; margin-left: 5%" >
+                <h3> Sign Up </h3>
+                <div><span> Username</span><input class="form-control" id="signUpUser"> </div>
+                <div><span> Password </span> <input class="form-control" id="signUpPass"> </div>
+                <button style="margin: 5px" class="btn btn-primary" id="signUp"> Sign Up !</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="alert alert-danger" style="text-align: center ; "></div>
+<div class="alert alert-success" style="text-align: center ;"></div>
+<div style="text-align: center ; border: 1px solid #e2e2e2 ; margin: 20px " id="cmBox">
+    <div style="width:75% ; padding: 20px ; margin: auto "><span> Enetr Comment: </span> <input class="form-control" id="msg"> </div>
+    <button class="btn btn-success" id="submitComment"> Submit </button>
+    <ul id="commentBox" class="list-group" style="margin: 25px 20%">
+
+    </ul>
+</div>
+
+
+
+</body>
+</html>
